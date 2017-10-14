@@ -15,8 +15,5 @@ public class HistogramBranch {
         for (Integer key : histogram.keySet()) {
             System.out.println(key + " <==> " + histogram.get(key));
         }
-    
-    
     }
-    
 }
