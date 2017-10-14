@@ -14,7 +14,7 @@ public class HistogramBranch {
         HashMap<Integer, Integer> histogram = mihisto.getHisto();
         
         for (Integer key : histogram.keySet()) {
-            System.out.println(key + " --> " + histogram.get(key));
+            System.out.println(key + " <==> " + histogram.get(key));
         }
     
     
