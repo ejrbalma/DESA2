@@ -12,7 +12,7 @@ public class HistogramBranch {
         
          Histogram <String> histogram = CalculaHistogram.computeHistogram(vector);
         
-        for (Integer key : histogram.keySet()) {
+        for (String key : histogram.keySet()) {
             System.out.println(key + " <==> " + histogram.get(key));
         }
     
